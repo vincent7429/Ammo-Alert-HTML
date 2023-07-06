@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Privacy - Ammo-Alert</title>
+    <meta
+      name="description"
+      content="Ammo-Alert is a project that focuses on preventing School Shootings from turning into tragedies by detecting shots and alerting schools.  Click to read more..."
+    />
+    <meta property="og:title" content="Privacy - Ammo-Alert" />
+    <meta
+      property="og:description"
+      content="Ammo-Alert is a project that focuses on preventing School Shootings from turning into tragedies by detecting shots and alerting schools.  Click to read more..."
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/bc1d5d17-01db-41b7-9791-9c86c6bfc38f/56b878e9-4e6d-41fc-b8a4-446a8ee66a8a?org_if_sml=1"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Lexend Deca;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-scheme-foregroundcolor);
+        background-color: var(--dl-color-scheme-yellow20);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/logo-final.ico"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./privacy.css" rel="stylesheet" />
+
+      <div class="privacy-container">
+        <header data-thq="thq-navbar" class="privacy-navbar-interactive sticky">
+          <a
+            href="https://www.ammo-alert.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="privacy-link"
+          >
+            <img
+              alt="logo"
+              src="https://www.ammo-alert.com/images/assets/Ammo-AlertLogo.png"
+              class="privacy-logo"
+            />
+          </a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="privacy-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="privacy-nav"
+            ></nav>
+          </div>
+          <div data-thq="thq-navbar-btn-group" class="privacy-btn-group">
+            <a href="index.html" class="privacy-navlink">Home</a>
+            <a href="about.html" class="privacy-navlink1">About</a>
+            <a
+              href="https://read.ammo-alert.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="privacy-link01"
+            >
+              Read
+            </a>
+            <a
+              href="https://status.ammo-alert.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="privacy-link02"
+            >
+              Status
+            </a>
+            <a
+              href="mailto:info@ammo-alert.com?subject="
+              class="privacy-email button"
+            >
+              Contact
+            </a>
+          </div>
+          <div data-thq="thq-burger-menu" class="privacy-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="privacy-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="privacy-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="privacy-nav1"
+            >
+              <div class="privacy-container01">
+                <a
+                  href="https://ammo-alert.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="privacy-link03"
+                >
+                  <img
+                    alt="image"
+                    src="https://www.ammo-alert.com/images/assets/Ammo-AlertLogo.png"
+                    class="privacy-image"
+                  />
+                </a>
+                <div data-thq="thq-close-menu" class="privacy-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="privacy-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="privacy-nav2"
+              >
+                <a href="index.html" class="privacy-navlink2">Home</a>
+                <a href="about.html" class="privacy-navlink3">About</a>
+                <a href="https://read.ammo-alert.com/" class="privacy-link04">
+                  Read
+                </a>
+                <a href="https://status.ammo-alert.com" class="privacy-link05">
+                  Status
+                </a>
+              </nav>
+              <div class="privacy-container02">
+                <a
+                  href="mailto:info@ammo-alert.com?subject="
+                  class="privacy-register button"
+                >
+                  Contact
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="privacy-container03">
+          <div class="privacy-container04">
+            <img
+              alt="image"
+              src="https://www.ammo-alert.com/images/assets/Legal-PrivacyMain.png"
+              class="privacy-image1"
+            />
+            <span class="privacy-text">Ammo-Alert Privacy Policy</span>
+            <span class="privacy-text01">Effective January 9th, 2023</span>
+            <span class="privacy-text02 max-width">
+              <span>
+                At Ammo-Alert, we take your privacy seriously and are committed
+                to protecting your personal information. This Privacy Policy
+                outlines the types of personal data we collect, how we use it,
+                and the steps we take to ensure it is protected.
+              </span>
+              <br />
+            </span>
+            <a
+              href="https://www.ammo-alert.com/policies/main/20230109/ammo-alert-privacy_policy-en_us.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="privacy-link06"
+            >
+              <span class="privacy-text05">
+                View a PDF Copy of this document. &gt;
+              </span>
+              <br />
+            </a>
+          </div>
+        </div>
+        <div class="privacy-table-of-cont max-width">
+          <h1 class="privacy-text07">
+            <span>What this Document Contains</span>
+            <br />
+          </h1>
+          <li class="privacy-li list-item">
+            <a href="#types-of-data-we-collect" class="privacy-link07">
+              Types of data we collect
+            </a>
+          </li>
+          <li class="privacy-li01 list-item">
+            <a href="#how-we-process-your-data" class="privacy-link08">
+              How we process your data
+            </a>
+          </li>
+          <li class="privacy-li02 list-item">
+            <a href="#how-we-process-your-data" class="privacy-link09">
+              Sharing of Data
+            </a>
+          </li>
+          <li class="privacy-li03 list-item">
+            <a href="#dataprotections" class="privacy-link10">
+              Data protections
+            </a>
+          </li>
+        </div>
+        <div
+          id="types-of-data-we-collect"
+          class="privacy-container05 max-width"
+        >
+          <a href="#types-of-data-we-collect" class="privacy-link11">
+            <h1 class="privacy-text10">
+              <span>Types of data we collect.</span>
+              <br />
+            </h1>
+          </a>
+          <span class="privacy-text13"></span>
+          <li class="privacy-li04 list-item">
+            <span class="privacy-text14">
+              <span>
+                Personal identification information (name, email address, etc.)
+                is collected to identify you as a user and allow us to provide
+                you with personalized services.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="privacy-li05 list-item">
+            <span class="privacy-text18">
+              <span>
+                Usage data (how you use our services) helps us understand how
+                you use our services, which allows us to improve them.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="privacy-li06 list-item">
+            <span class="privacy-text22">
+              <span>
+                Audio data (only when the microphone is active or a gunshot is
+                detected) is used to detect gunshots and send out alerts to
+                appropriate subscribers. This data is only collected when
+                necessary and is always encrypted in a way that will be
+                impossible to decrypt.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+        </div>
+        <div
+          id="how-we-process-your-data"
+          class="privacy-container06 max-width"
+        >
+          <a href="#how-we-process-your-data" class="privacy-link12">
+            <h1 class="privacy-text26">
+              <span>How we process your data</span>
+              <br />
+            </h1>
+          </a>
+          <li class="privacy-li07 list-item">
+            <span class="privacy-text29">
+              <span>
+                To provide and improve our services: We use your data to ensure
+                that our services are functioning properly and to make updates
+                and improvements based on your feedback and usage data.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="privacy-li08 list-item">
+            <span class="privacy-text33">
+              <span>
+                To send you updates and notifications: We may use your email
+                address or other contact information to send you updates about
+                our services, including important security updates.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="list-item">
+            <span class="privacy-text37">
+              <span>
+                To analyze usage data to improve our services: We use usage data
+                to understand how our services are being used and to identify
+                areas for improvement.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+        </div>
+        <div id="sharing-of-data" class="privacy-container07 max-width">
+          <a href="#sharing-of-data" class="privacy-link13">
+            <h1 class="privacy-text41">
+              <span>Sharing Of Data</span>
+              <br />
+            </h1>
+          </a>
+          <li class="privacy-li10 list-item">
+            <span class="privacy-text44">
+              <span>
+                We do not sell or share your personal data with third parties
+                for their own marketing purposes. Your data is only used to
+                provide and improve our services.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="privacy-li11 list-item">
+            <span class="privacy-text48">
+              <span>
+                We may share your data with service providers who perform
+                functions on our behalf, such as data analysis and storage.
+                These service providers are required to protect your data in
+                accordance with this Privacy Policy.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="privacy-li12 list-item">
+            <span class="privacy-text52">
+              <span>
+                We may also share your data in response to legal requests, such
+                as a court order or subpoena, or in cases of emergency. We will
+                only share your data in these circumstances if it is necessary
+                and legally required.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+        </div>
+        <div id="data-protections" class="privacy-container08 max-width">
+          <a href="#dataprotections" class="privacy-link14">
+            <h1 class="privacy-text56">
+              <span>Data Protections</span>
+              <br />
+            </h1>
+          </a>
+          <span class="privacy-text59">
+            <span>
+              We take appropriate security measures to protect your data from
+              unauthorized access. However, please be aware that no method of
+              electronic transmission or storage is completely secure, and we
+              cannot guarantee the absolute security of your data.
+            </span>
+            <br />
+            <br />
+            <span>Here's How:</span>
+            <br />
+            <br />
+          </span>
+          <li class="privacy-li13 list-item">
+            <span class="privacy-text66">
+              <span>
+                We use appropriate security measures to protect your data from
+                unauthorized access, including encryption and secure servers.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="list-item">
+            <span class="privacy-text70">
+              <span>
+                We store your data locally, not on cloud-based servers, to
+                ensure that it is protected.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="privacy-li15 list-item">
+            <span class="privacy-text74">
+              <span>
+                You have the right to request access to your personal data, as
+                well as the right to request that it be corrected or deleted.
+                You can exercise these rights by contacting us using the
+                information provided in this Privacy Policy.
+              </span>
+              <br />
+              <br />
+            </span>
+          </li>
+          <li class="privacy-li16 list-item">
+            <span class="privacy-text78">
+              You have the right to request access to your personal data, as
+              well as the right to request that it be corrected or deleted. If
+              you have any questions or concerns about our Privacy Policy,
+              please contact us at info.ammo-alert.com.
+            </span>
+          </li>
+        </div>
+        <div id="dataprotections" class="privacy-container09 max-width">
+          <a href="#dataprotections" class="privacy-link15">
+            <h1 class="privacy-text79">
+              <span>Updates to Policy</span>
+              <br />
+            </h1>
+          </a>
+          <span class="privacy-text82">
+            We may update this Privacy Policy from time to time, so please be
+            sure to check back periodically. If you have any questions or
+            concerns about our Privacy Policy, please contact us. We are
+            committed to ensuring that your privacy is respected and that your
+            data is protected.
+          </span>
+        </div>
+        <div class="privacy-container10">
+          <footer class="privacy-footer">
+            <footer class="privacy-footer-in-cont max-width">
+              <a href="index.html" class="privacy-navlink4">
+                <li class="privacy-li17 list-item">
+                  <span class="privacy-home">Back to Legal Home</span>
+                </li>
+              </a>
+              <footer class="privacy-footer1 max-width">
+                <div class="privacy-container11 max-width">
+                  <a href="index.html" class="privacy-navlink5">
+                    <img
+                      alt="logo"
+                      src="https://www.ammo-alert.com/images/assets/Ammo-AlertLogo.png"
+                      class="privacy-logo1"
+                    />
+                  </a>
+                  <a
+                    href="https://www.ammo-alert.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="privacy-link16"
+                  >
+                    <li class="privacy-li18 list-item">
+                      <span class="privacy-home1">Home</span>
+                    </li>
+                  </a>
+                  <a
+                    href="https://www.ammo-alert.com/about"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="privacy-link17"
+                  >
+                    <li class="privacy-li19 list-item">
+                      <span class="privacy-about">About</span>
+                    </li>
+                  </a>
+                  <a
+                    href="https://www.ammo-alert.com/legal/privacy"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="privacy-link18"
+                  >
+                    <li class="privacy-li20 list-item">
+                      <span class="privacy-privacy">Privacy</span>
+                    </li>
+                  </a>
+                  <a
+                    href="https://status.ammo-alert.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="privacy-link19"
+                  >
+                    <li class="privacy-li21 list-item">
+                      <span class="privacy-status">Status</span>
+                    </li>
+                  </a>
+                  <a
+                    href="https://www.ammo-alert.com/legal/terms"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="privacy-link20"
+                  >
+                    <li class="privacy-li22 list-item">
+                      <span class="privacy-terms">Terms</span>
+                    </li>
+                  </a>
+                  <a
+                    href="https://read.ammo-alert.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="privacy-link21"
+                  >
+                    <li class="privacy-li23 list-item">
+                      <span class="privacy-read">Read</span>
+                    </li>
+                  </a>
+                  <li class="privacy-li24 list-item">
+                    <a
+                      href="https://www.youtube.com/@ammo-alert8826"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="privacy-you-tube"
+                    >
+                      <span>YouTube</span>
+                      <br />
+                    </a>
+                  </li>
+                </div>
+                <div class="privacy-separator"></div>
+                <div class="privacy-container12">
+                  <div class="privacy-copyright">
+                    <div class="privacy-container13">
+                      <div class="privacy-copyright1">
+                        <span class="privacy-text85">
+                          ©2023 Ammo-Alert. All Rights Reserved.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="privacy-email1">
+                    <a
+                      href="mailto:info@ammo-alert.com?subject="
+                      class="privacy-email2"
+                    >
+                      <span>Email us:</span>
+                      <span>info@ammo-alert.com</span>
+                    </a>
+                  </div>
+                </div>
+              </footer>
+            </footer>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script>
+      window.onload = () => {
+        const runAllScripts = () => {
+          initializeAllAccordions()
+        }
+
+        const listenForUrlChanges = () => {
+          let url = location.href
+          document.body.addEventListener(
+            'click',
+            () => {
+              requestAnimationFrame(() => {
+                if (url !== location.href) {
+                  runAllScripts()
+                  url = location.href
+                }
+              })
+            },
+            true
+          )
+        }
+
+        const initializeAllAccordions = () => {
+          const allAccordions = document.querySelectorAll('[data-role="Accordion"]');
+
+          allAccordions.forEach((accordion) => {
+            const accordionHeader = accordion.querySelector('[data-type="accordion-header"]')
+            const accordionContent = accordion.querySelector('[data-type="accordion-content"]')
+
+            accordionHeader.addEventListener('click', () => {
+              if (accordionContent.style.maxHeight) {
+                accordionContent.style.maxHeight = ''
+              } else {
+                accordionContent.style.maxHeight = `${accordionContent.scrollHeight}px`
+              }
+            })
+          })
+        }
+
+        listenForUrlChanges()
+        runAllScripts()
+      }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      data-section-id="header"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
