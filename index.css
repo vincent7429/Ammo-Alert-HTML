@@ -181,13 +181,13 @@
   align-items: center;
   justify-content: center;
 }
-.index-icon2 {
+.index-icon02 {
   fill: #ffffff;
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
   transition: 0.3s;
 }
-.index-icon2:hover {
+.index-icon02:hover {
   fill: var(--dl-color-scheme-logored);
 }
 .index-nav2 {
@@ -861,7 +861,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.index-icon4 {
+.index-icon04 {
   fill: #D9D9D9;
   width: 124px;
   height: 124px;
@@ -1432,6 +1432,14 @@
 .index-link20:hover {
   color: #ffffff;
 }
+.index-container21 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .index-socials {
   display: flex;
   align-self: center;
@@ -1455,15 +1463,27 @@
 .index-link21 {
   display: contents;
 }
-.index-icon6 {
+.index-icon06 {
   fill: #D9D9D9;
   width: 48px;
   height: 48px;
-  transition: 0.3s;
   text-decoration: none;
 }
-.index-icon6:hover {
-  fill: var(--dl-color-scheme-logored);
+.index-link22 {
+  display: contents;
+}
+.index-image4 {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.index-link23 {
+  display: contents;
+}
+.index-icon08 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
 }
 .index-separator {
   width: 100%;
@@ -1731,6 +1751,30 @@
   .index-terms {
     font-size: 20px;
     text-align: left;
+  }
+  .index-text28 {
+    color: var(--dl-color-scheme-white);
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+  }
+  .index-icon-group {
+    width: 100%;
+    height: 100%;
+  }
+  .index-icon06 {
+    fill: #f90000;
+    margin: var(--dl-space-space-unit);
+  }
+  .index-image4 {
+    width: 48px;
+    height: 48px;
+  }
+  .index-icon08 {
+    fill: #1DA1F2;
+    width: 48px;
+    height: 48px;
+    margin: var(--dl-space-space-halfunit);
   }
   .index-text29 {
     color: var(--dl-color-scheme-white);
@@ -2341,7 +2385,7 @@
     width: 50px;
     height: 50px;
   }
-  .index-icon2 {
+  .index-icon02 {
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
@@ -2754,7 +2798,7 @@
     width: var(--dl-size-size-medium);
     height: var(--dl-size-size-medium);
   }
-  .index-icon2 {
+  .index-icon02 {
     fill: #ffffff;
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
