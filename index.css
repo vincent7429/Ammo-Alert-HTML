@@ -1464,16 +1464,19 @@
   display: contents;
 }
 .index-icon06 {
-  fill: #D9D9D9;
+  fill: #f90000;
   width: 48px;
   height: 48px;
+  margin: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .index-link22 {
   display: contents;
 }
 .index-image4 {
-  width: 200px;
+  width: 48px;
+  height: 48px;
+  margin: var(--dl-space-space-halfunit);
   object-fit: cover;
   text-decoration: none;
 }
@@ -1481,8 +1484,10 @@
   display: contents;
 }
 .index-icon08 {
-  width: 24px;
-  height: 24px;
+  fill: #1DA1F2;
+  width: 48px;
+  height: 48px;
+  margin: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .index-separator {
