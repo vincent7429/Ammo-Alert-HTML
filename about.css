@@ -582,7 +582,7 @@
   justify-content: center;
   background-color: #121212;
 }
-.about-y-text {
+.about-yt-text {
   color: rgb(255, 255, 255);
   font-size: 3rem;
   font-family: Urbanist;
@@ -1439,7 +1439,7 @@
   .about-you-tube-embed {
     flex-direction: column;
   }
-  .about-y-text {
+  .about-yt-text {
     text-align: center;
   }
   .about-footer {
@@ -2043,7 +2043,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .about-y-text {
+  .about-yt-text {
     font-size: 3rem;
   }
   .about-bottom {
